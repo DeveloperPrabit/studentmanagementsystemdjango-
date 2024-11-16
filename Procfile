@@ -1,1 +1,1 @@
-web: gunicorn student-management-using-django.wsgi:application
+web: gunicorn student_management_system.wsgi:application
