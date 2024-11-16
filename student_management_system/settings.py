@@ -9,8 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('MY_SECRET_KEY', 'fallback-secret-key')  # Use a fallback secret key for development
 
 DEBUG = True
-ALLOWED_HOSTS = ['localhost',
-'850084fed5bba4c2f50cd66741f1a0f3.serveo.net','127.0.0.1','http://127.0.0.1:4040']  # Add your production domain in ALLOWED_HOSTS
+ALLOWED_HOSTS = ['rest-auth.onrender.com']  # Add your production domain in ALLOWED_HOSTS
 
 INSTALLED_APPS = [
     'django.contrib.admin',
